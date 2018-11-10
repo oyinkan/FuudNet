@@ -1,0 +1,187 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+.navbar-inverse {
+  background-color: #fff;
+  border-color: #fff;
+  border-radius: 0;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #ec3237;
+  font-size: 16px;
+}
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:active,
+.navbar-inverse .navbar-nav>li>a:focus {
+  color: #ec3237;
+  font-weight: 600;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+  color: #ec3237;
+  background: transparent;
+  font-weight: bold;
+}
+.navbar-inverse .navbar-toggle {
+  background: #333;
+}
+.order-background {
+  background: url(./../images/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 60px 0;
+  margin-top: -20px;
+  color: #fff;
+}
+.order {
+  line-height: 46px;
+  font-size: 41px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.find {
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+.search-form {
+  margin-top: 20px;
+}
+.search-form .form-control {
+  height: 50px;
+}
+.search {
+  height: 50px;
+  width: 150px;
+  background: #364d0d;
+  border: 1px solid #334d01;
+}
+.popular {
+  margin-top: 20px;
+}
+.panel-default>.panel-heading {
+  background-color: transparent;
+  border-color: transparent;
+  padding: 0;
+}
+.food-item-wrap {
+  margin-top: 40px;
+}
+.food-item-wrap h5 a {
+  font-size: 21px;
+  font-weight: 600;
+  color: #444;
+}
+.food-item-wrap h5 a:hover {
+  color: #ec3237;
+  text-decoration: none;
+}
+.food-item-wrap .price {
+  font-size: 21px;
+  font-weight: 700;
+  color: #000;
+  margin-top: 4px;
+  display: inline-block;
+}
+.food-item-wrap .order-now {
+  border: 2px dashed #ec3237;
+  background-color: transparent;
+  color: #ec3237;
+}
+.food-item-wrap .order-now:hover {
+  background: #ec3237;
+  color: #fff;
+}
+.how-it-works {
+  background: #2a2749;
+  color: #fff;
+  margin-top: 60px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.icon {
+  border: 1px solid;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding-top: 30px;
+  margin-top: 40px;
+}
+.how-it-works h3 {
+  font-size: 1.75rem;
+}
+.how-it-works p {
+  color: #9c9da5;
+}
+.icon i {
+  font-size: 40px;
+}
+.featured-restaurants {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.restaurant-wrap {
+  border: 1px solid #eaebeb;
+  border-radius: 3px;
+  padding: 15px;
+  background: #fafaf8;
+  float: left;
+  width: 100%;
+  margin-top: 30px;
+}
+.featured-restaurants .restaurant-wrap h5 a {
+  color: #25282b;
+  font-size: 18px;
+}
+.app-section {
+  background: #ec3237;
+  padding: 60px 0;
+  color: #fff;
+}
+.bestfood {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.foodhappen {
+  font-size: 17px;
+  width: 350px;
+}
+.app-btn {
+  border: 1px solid #fff;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+a.clearfix:hover {
+  text-decoration: none;
+}
+footer {
+  background: #2a2749;
+  color: #fff;
+  padding: 45px 0;
+}
+footer ul {
+  padding-inline-start: 0;
+}
+footer ul li {
+  list-style-type: none;
+}
+footer ul li a, footer ul li a:hover {
+  color: #fff;
+}
+.footer-logo-block {
+  margin-top: 7px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  #search {
+    width: 100%;
+  }
+  .foodhappen {
+    width: auto;
+  }
+  .app-btn {
+    margin-top: 10px;
+  }
+}
